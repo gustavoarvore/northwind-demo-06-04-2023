@@ -15,3 +15,31 @@ sources:
             tests:
               - unique
               - not_null
+
+      - name: orders 
+        description: uma linha por pedidos. inclui pedidos cancelados e deletados
+        columns:
+          - name: order_id
+            description: chave primária da tabela orders
+            tests:
+              - unique
+              - not_null
+
+      - name: order_details
+        description: detalhe de item linha para cada produto da tabela orders
+
+      - name: products
+        description: tabela com os produtos comercializados pela northwind
+
+      - name: categories
+        description: tabela com categorias dos produtos comercializados pela northwind
+
+      - name: suppliers
+        description: fornecedores dos produtos comercializados pela northwind
+
+      - name: costumers
+        description: tabela com informações de clientes da northwind
+
+
+
+
