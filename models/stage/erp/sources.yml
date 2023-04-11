@@ -1,0 +1,17 @@
+
+version: 2
+
+sources:
+  - name: erp
+    description: fonte do ponto de vendas do northwind.
+    schema: erp_northwind
+    tables:
+      
+      - name: employees
+        description: tabela com dados dos funcionários.
+        columns: 
+          - name: employees_id
+            description: chave primária da tabela dos funcionários
+            tests:
+              - unique
+              - not_null
