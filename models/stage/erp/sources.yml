@@ -37,9 +37,5 @@ sources:
       - name: suppliers
         description: fornecedores dos produtos comercializados pela northwind
 
-      - name: costumers
+      - name: customers
         description: tabela com informações de clientes da northwind
-
-
-
-
